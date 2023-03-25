@@ -21,7 +21,7 @@ import com.proyecto.arprog.service.ImplementacionPersonaService;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendarprog.web.app")
 public class PersonaController {
    
 

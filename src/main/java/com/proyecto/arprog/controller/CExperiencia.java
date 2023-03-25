@@ -23,7 +23,7 @@ import com.proyecto.arprog.service.SExperiencia;
 
 @RestController
 @RequestMapping("/explab")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendarprog.web.app")
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;

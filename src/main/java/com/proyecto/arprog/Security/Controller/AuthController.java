@@ -32,7 +32,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendarprog.web.app")
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEnconder;

@@ -23,7 +23,7 @@ import com.proyecto.arprog.service.Shys;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendarprog.web.app")
 @RequestMapping("/skill")
 public class CHys {
     @Autowired
