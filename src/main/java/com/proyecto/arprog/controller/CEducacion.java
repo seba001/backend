@@ -23,7 +23,7 @@ import com.proyecto.arprog.service.Seducacion;
 
 @RestController
 @RequestMapping("/educacion")
-@CrossOrigin(origins = "https://frontendarprog.web.app")
+@CrossOrigin(origins = {"https://frontendarprog.web.app", "http://localhost:4200"})
 public class CEducacion {
     @Autowired
     Seducacion sEducacion;
